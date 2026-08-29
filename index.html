@@ -9,29 +9,33 @@
       <h1>perfect day for a drink</h1>
       <p class="tagline">we'll take your order now!</p>
     </header>
- 
+
     <main>
-      <section class="card">
+      <section class="card" data-choice-group="drink-base">
         <h2>drink base:</h2>
         <h3>pick your desired drink base, and click to confirm</h3>
-        <p class="base-options">
-          <button type="button" class="base-option" data-base="coconut juice">coconut juice</button>
-          <button type="button" class="base-option" data-base="pink soda">pink soda</button>
-          <button type="button" class="base-option" data-base="lemonade">lemonade</button>
-          <button type="button" class="base-option" data-base="hibiscus tea">hibiscus tea</button>
-        </p>
-        <p id="count" aria-live="polite">0/1 selected</p>
+        <div class="choice-row">
+          <button type="button" class="choice-option" data-choice="coconut juice">coconut juice</button>
+          <button type="button" class="choice-option" data-choice="pink soda">pink soda</button>
+          <button type="button" class="choice-option" data-choice="lemonade">lemonade</button>
+          <button type="button" class="choice-option" data-choice="hibiscus tea">hibiscus tea</button>
+        </div>
+        <p class="selection-status" aria-live="polite">0/1 selected</p>
+        <button type="button" class="clear-selection">clear selection</button>
       </section>
 
-      <section class="card">
+      <section class="card" data-choice-group="add-ins">
         <h2>add-ins:</h2>
         <h3>pick your desired add-ins, and click to confirm</h3>
-        <p>
-         <button id="base">mango popping boba</button> <button id="base1">mint leaves</button> <button id="base2">strawberry syrup</button> <button id="base3">lime slices</button>
-         <p id="count">0/1 selected</p>
+        <div class="choice-row">
+          <button type="button" class="choice-option" data-choice="mango popping boba">mango popping boba</button>
+          <button type="button" class="choice-option" data-choice="mint leaves">mint leaves</button>
+          <button type="button" class="choice-option" data-choice="strawberry syrup">strawberry syrup</button>
+          <button type="button" class="choice-option" data-choice="lime slices">lime slices</button>
+        </div>
+        <p class="selection-status" aria-live="polite">0/1 selected</p>
+        <button type="button" class="clear-selection">clear selection</button>
       </section>
- 
-      
 
       <section class="card">
         <h2>find me</h2>
@@ -47,7 +51,7 @@
           <li>the inheritance games - jennifer lynn barnes</li>
           <li>percy jackson and the olympians - rick riordan</li>
           <li>caraval - stephanie garber</li>
-        <ol>
+        </ol>
       </section>
 
       <section class="card">
@@ -57,10 +61,8 @@
         <img src="image.png" alt="percy jackson and the olympians" width="100px" height="150px">
         <img src="caraval.png" alt="caraval" width="100px" height="150px">
       </section>
-
-
     </main>
- 
+
     <footer>
       <p>made by me, obviously</p>
     </footer>
