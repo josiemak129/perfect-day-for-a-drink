@@ -69,13 +69,13 @@ a {
 }
 
 .choice-option.selected {
-  background: #234b6b;
+  background: #f5a62f;
   box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
 }
 
 .clear-selection {
   font: inherit;
-  background: #6d9bb1;
+  background: #e7ce5b;
   color: #fff;
   border: none;
   border-radius: 999px;
@@ -98,5 +98,5 @@ footer {
   max-width: 40rem;
   margin: 2rem auto 0;
   text-align: center;
-  color: #bae0e0;
+  color: #fff3da;
 }
