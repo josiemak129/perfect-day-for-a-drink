@@ -1,8 +1,12 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <title>perfect day for a drink</title>
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfect Day for a Drink</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -13,96 +17,176 @@
     </header>
 
     <main>
-      <section class="card" data-choice-group="drink-base">
-        <h2>drink base:</h2>
-        <h3>pick your desired drink base, and click to confirm</h3>
-        <div class="choice-row">
-          <button type="button" class="choice-option" data-choice="coconut juice">coconut juice</button>
-          <button type="button" class="choice-option" data-choice="pink soda">pink soda</button>
-          <button type="button" class="choice-option" data-choice="lemonade">lemonade</button>
-          <button type="button" class="choice-option" data-choice="hibiscus tea">hibiscus tea</button>
-        </div>
-        <p class="selection-status" aria-live="polite">0/1 selected</p>
-        <button type="button" class="clear-selection">clear selection</button>
-      </section>
 
-      <section class="card" data-choice-group="add-ins">
-        <h2>add-ins:</h2>
-        <h3>pick your desired add-ins, and click to confirm</h3>
-        <div class="choice-row">
-          <button type="button" class="choice-option" data-choice="mango popping boba">mango popping boba</button>
-          <button type="button" class="choice-option" data-choice="mint leaves">mint leaves</button>
-          <button type="button" class="choice-option" data-choice="strawberry syrup">strawberry syrup</button>
-          <button type="button" class="choice-option" data-choice="lime slices">lime slices</button>
-        </div>
-        <p class="selection-status" aria-live="polite">0/1 selected</p>
-        <button type="button" class="clear-selection">clear selection</button>
-      </section>
+        <!-- Drink Base -->
+        <section class="card" data-choice-group="drink-base">
+            <h2>drink base:</h2>
+            <h3>pick your desired drink base</h3>
 
-    <section class="card" data-choice-group="drink-base">
-        <h2>ice:</h2>
-        <h3>pick your desired ice amount, and click to confirm</h3>
-        <div class="choice-row">
-          <button type="button" class="choice-option" data-choice="0% ice">0% ice</button>
-          <button type="button" class="choice-option" data-choice="25% ice">25% ice</button>
-          <button type="button" class="choice-option" data-choice="50%">50%</button>
-          <button type="button" class="choice-option" data-choice="75% ice">75% ice</button>
-        </div>
-        <p class="selection-status" aria-live="polite">0/1 selected</p>
-        <button type="button" class="clear-selection">clear selection</button>
-      </section>
+            <div class="choice-row">
+                <button type="button" class="choice-option" data-choice="coconut juice">
+                    coconut juice
+                </button>
 
-        <section class="card">
-            <h2>Sweetness :</h2>
+                <button type="button" class="choice-option" data-choice="pink soda">
+                    pink soda
+                </button>
+
+                <button type="button" class="choice-option" data-choice="lemonade">
+                    lemonade
+                </button>
+
+                <button type="button" class="choice-option" data-choice="hibiscus tea">
+                    hibiscus tea
+                </button>
+            </div>
+
+            <p class="selection-status" aria-live="polite">0/1 selected</p>
+            <button type="button" class="clear-selection">clear selection</button>
+        </section>
+
+
+        <!-- Add-ins -->
+        <section class="card" data-choice-group="add-ins">
+            <h2>add-ins:</h2>
+            <h3>choose your favourite add-in</h3>
+
+            <div class="choice-row">
+                <button type="button" class="choice-option" data-choice="mango popping boba">
+                    mango popping boba
+                </button>
+
+                <button type="button" class="choice-option" data-choice="mint leaves">
+                    mint leaves
+                </button>
+
+                <button type="button" class="choice-option" data-choice="strawberry syrup">
+                    strawberry syrup
+                </button>
+
+                <button type="button" class="choice-option" data-choice="lime slices">
+                    lime slices
+                </button>
+            </div>
+
+            <p class="selection-status" aria-live="polite">0/1 selected</p>
+            <button type="button" class="clear-selection">clear selection</button>
+        </section>
+
+
+        <!-- Ice -->
+        <section class="card" data-choice-group="ice">
+            <h2>ice:</h2>
+            <h3>how much ice would you like?</h3>
+
+            <div class="choice-row">
+                <button type="button" class="choice-option" data-choice="0% ice">
+                    0% ice
+                </button>
+
+                <button type="button" class="choice-option" data-choice="25% ice">
+                    25% ice
+                </button>
+
+                <button type="button" class="choice-option" data-choice="50% ice">
+                    50% ice
+                </button>
+
+                <button type="button" class="choice-option" data-choice="75% ice">
+                    75% ice
+                </button>
+            </div>
+
+            <p class="selection-status" aria-live="polite">0/1 selected</p>
+            <button type="button" class="clear-selection">clear selection</button>
+        </section>
+
+
+        <!-- Sweetness -->
+        <section class="card" data-choice-group="sweetness">
+            <h2>sweetness:</h2>
             <h3>pick your sweetness level</h3>
 
-            <div class="drink-buttons">
-                <button class="sweetness">regular sweetness</button>
-                <button class="sweetness">25% sweetness</button>
-                <button class="sweetness">50% sweetness</button>
-                <button class="sweetness">75% sweetness</button>
+            <div class="choice-row">
+                <button type="button" class="choice-option" data-choice="regular sweetness">
+                    regular sweetness
+                </button>
+
+                <button type="button" class="choice-option" data-choice="25% sweetness">
+                    25% sweetness
+                </button>
+
+                <button type="button" class="choice-option" data-choice="50% sweetness">
+                    50% sweetness
+                </button>
+
+                <button type="button" class="choice-option" data-choice="75% sweetness">
+                    75% sweetness
+                </button>
             </div>
+
             <p class="selection-status" aria-live="polite">0/1 selected</p>
-        <button type="button" class="clear-selection">clear selection</button>
-      </section>
+            <button type="button" class="clear-selection">clear selection</button>
+        </section>
 
-   
 
-        <section class="card">
+        <!-- Dietary Restrictions -->
+        <section class="card" data-choice-group="diet">
             <h2>dietary restrictions:</h2>
             <h3>choose one if you have a dietary restriction</h3>
 
-            <div class="diet-buttons">
-                <button class="diet">no restrictions</button>
-                <button class="diet">dairy-free</button>
-                <button class="diet">gluten-free</button>
-                <button class="diet">vegan</button>
-                <button class="diet">nut-free</button>
+            <div class="choice-row">
+                <button type="button" class="choice-option" data-choice="no restrictions">
+                    no restrictions
+                </button>
+
+                <button type="button" class="choice-option" data-choice="dairy-free">
+                    dairy-free
+                </button>
+
+                <button type="button" class="choice-option" data-choice="gluten-free">
+                    gluten-free
+                </button>
+
+                <button type="button" class="choice-option" data-choice="vegan">
+                    vegan
+                </button>
+
+                <button type="button" class="choice-option" data-choice="nut-free">
+                    nut-free
+                </button>
             </div>
-             <p class="selection-status" aria-live="polite">0/1 selected</p>
-        <button type="button" class="clear-selection">clear selection</button>
-  
+
+            <p class="selection-status" aria-live="polite">0/1 selected</p>
+            <button type="button" class="clear-selection">clear selection</button>
+
             <p id="diet-choice">no restriction selected</p>
         </section>
 
 
-
-
-
-        <section class="card">
+        <!-- Place Order -->
+        <section class="card order-card">
             <h2>place order</h2>
+            <p>happy with your drink?</p>
 
-            <button id="place order">place your order!</button>
+            <button type="button" id="place-order">
+                place your order!
+            </button>
+
             <p id="order-count">0 orders</p>
         </section>
-       
+
+    </main>
 
 
     <footer>
-        <p>made by us, obviously</p>
+        <p>made by us, obviously ♡</p>
     </footer>
+
 
     <script src="script.js"></script>
 
 </body>
+
 </html>
+```
