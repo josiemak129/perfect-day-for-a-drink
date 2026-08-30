@@ -1,4 +1,4 @@
-```javascript id="q4m8zn"
+
 const choiceGroups = document.querySelectorAll("[data-choice-group]");
 
 const initializeChoiceGroup = (group) => {
@@ -111,4 +111,4 @@ Dietary restriction: ${selections["diet"]}
         alert(summary);
     });
 }
-```
+
