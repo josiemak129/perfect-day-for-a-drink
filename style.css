@@ -13,8 +13,8 @@ h2 {
  
 /* by class: anything with class="card" */
 .card {
-  background: #f1a83a;
-   border: 2px solid hsl(338, 100%, 90%);
+  background: #ffd28e;
+   border: 2px solid hsl(36, 67%, 45%);
   border-radius: 12px;
   padding: 1.25rem 1.5rem;
 }
@@ -49,7 +49,7 @@ main {
 }
   
 a {
-  color: #71b3be;
+  color: #fffbe3;
 }
  
 .choice-row {
@@ -60,7 +60,7 @@ a {
 
 .choice-option {
   font: inherit;
-  background: #6d9bb1;
+  background: #ffc670;
   color: #fff;
   border: none;
   border-radius: 999px;
