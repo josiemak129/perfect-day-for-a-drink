@@ -36,7 +36,7 @@ h1 {
 }
 
 .tagline {
-  color: #fffbe3;
+  color: #e67f78;
   margin: 0;
 }
 
@@ -97,5 +97,5 @@ footer {
   max-width: 40rem;
   margin: 2rem auto 0;
   text-align: center;
-  color: #fff3da;
+  color: #e67f78;
 }
